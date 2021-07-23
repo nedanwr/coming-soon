@@ -47,6 +47,21 @@ class Home extends Component<any, any> {
             }}>
                 <Head>
                     <title>Naveed Ali Anwar — Web Designer & Developer</title>
+                    <meta charSet="UTF-8" />
+                    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+                    <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+                    <meta name="description" content="Naveed Ali Anwar is a Web Designer & Developer creating highly quality designs and websites. Make your brand stand out with a modern, clean and professional website." />
+                    <meta property="og:title" content="Naveed Ali Anwar — Web Designer & Developer" />
+                    <meta property="og:description" content="Naveed Ali Anwar is a Web Designer & Developer creating highly quality designs and websites. Make your brand stand out with a modern, clean and professional website." />
+                    <meta property="og:url" content="https://naveedalianwar.com" />
+                    <meta property="og:site_name" content="Naveed Ali Anwar" />
+                    <meta property="article:publisher" content="https://twitter.com/nedanwr" />
+                    <meta property="og:image" content="https://naveedalianwar.com/favicon.ico" />
+                    <meta property="og:image:width" content="64" />
+                    <meta property="og:image:height" content="64" />
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:creator" content="@nedanwr" />
+                    <meta name="twitter:site" content="@nedanwr" />
                 </Head>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
