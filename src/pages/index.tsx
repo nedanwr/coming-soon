@@ -59,7 +59,7 @@ class Home extends Component<any, any> {
                     <meta property="og:image" content="https://naveedalianwar.com/branding.png" />
                     <meta property="og:image:width" content="64" />
                     <meta property="og:image:height" content="64" />
-                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:card" content="summary" />
                     <meta name="twitter:creator" content="@nedanwr" />
                     <meta name="twitter:site" content="@nedanwr" />
                 </Head>
