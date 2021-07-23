@@ -34,6 +34,10 @@ class Home extends Component<any, any> {
         }, 1000);
     }
 
+    twitterRedirect = () => {
+        window.location.href = "https://twitter.com/nedanwr";
+    }
+
     render(): JSX.Element {
         return (
             <div style={{
@@ -45,7 +49,12 @@ class Home extends Component<any, any> {
                     <title>Naveed Ali Anwar — Web Designer & Developer</title>
                 </Head>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/favicon.ico" alt="Naveed Ali Anwar" className={styles.branding} />
+                <img
+                    src="/favicon.ico"
+                    alt="Naveed Ali Anwar"
+                    className={styles.branding}
+                    onClick={this.twitterRedirect}
+                />
                 <div className={styles.overlay}></div>
                 <main>
                     <h3 className={styles.subtitle}>Site Under Construction</h3>
