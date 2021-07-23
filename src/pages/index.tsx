@@ -56,7 +56,7 @@ class Home extends Component<any, any> {
                     <meta property="og:url" content="https://naveedalianwar.com" />
                     <meta property="og:site_name" content="Naveed Ali Anwar" />
                     <meta property="article:publisher" content="https://twitter.com/nedanwr" />
-                    <meta property="og:image" content="https://naveedalianwar.com/favicon.ico" />
+                    <meta property="og:image" content="https://naveedalianwar.com/branding.png" />
                     <meta property="og:image:width" content="64" />
                     <meta property="og:image:height" content="64" />
                     <meta name="twitter:card" content="summary_large_image" />
